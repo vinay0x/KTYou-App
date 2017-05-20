@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "528755641832",
+    "firebase_url": "https://learnwell-35a70.firebaseio.com",
+    "project_id": "learnwell-35a70",
+    "storage_bucket": "learnwell-35a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528755641832:android:6022bec816567147",
+        "android_client_info": {
+          "package_name": "com.intellidesigns.ktyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528755641832-cllb904qivj5lll36em43kp0i2r83j5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intellidesigns.ktyou",
+            "certificate_hash": "847e4b446079906f07c5ab9af139e85751c677a7"
+          }
+        },
+        {
+          "client_id": "528755641832-gn6jlglboo9ilmdfra8d9472lgu68vaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1rtjPtaelem5fUkM355gwFHV9mOGqqtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528755641832-gn6jlglboo9ilmdfra8d9472lgu68vaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

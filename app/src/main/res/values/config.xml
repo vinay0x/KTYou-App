@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-5514315741534690/1584741164</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-5514315741534690/4538207562</string>
+    <string name="ad_app_id" translatable="false">ca-app-pub-5514315741534690~9108007962</string>
+    <string name="test_device_id" translatable="false">7170163625397D22C4A4E1FD60819BAF</string>
+
+    <string name="interval_time" translatable="false">60000</string>
+    <!--If you want to load local site remove value only-->
+    <string name="target_url" translatable="false">http://www.ktyou.in</string>
+    <!--If you don't want to load toolbar remove value only-->
+    <string name="toolbar" translatable="false"></string>
+    <!--If you don't want zoom option remove value only-->
+    <string name="zoom" translatable="false"></string>
+    <string name="hide_status_bar" translatable="false"></string>
+
+    <!--PUBLIC KEY FROM GOOGLE PLAY-->
+    <string name="public_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoAmd3oD7uPLwBijbgfWTELTeYja+CZ8RTZU691rpP3mCCobf/w7TqOrK45scgldmelal9JQDxl9N/L5lbaoDRzkdG0vE/lRuldeApCk/SA8ZmLzUTZtBEskJTMAByktab1Xfur25aCcHvtXAvzv5awSfKwIQSGncK7cBe3cDX+e9fLeXec5XV/6yZz6RuPc79Km5wDf01bWy3CNn6iCex1y9WZEhds0D+Ov6KKxBovn4I+QC+BLDfkKc7zFkQFHxiVJaychSsNmffeVoBVQV1sSnU5aD37E6R/LeEdhSBc96rTVqYUWS2oBPT2TNceMjjUw949+FcZfCjPJ46j8BsQIDAQAB</string>
+    <!--PUBLIC KEY FROM GOOGLE PLAY-->
+    <string name="item_sku" translatable="false">com.intellidesigns.ktyou.removeads</string>
+</resources>
