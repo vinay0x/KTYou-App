@@ -8,8 +8,8 @@ android {
         applicationId "com.intellidesigns.ktyou"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 13
-        versionName "Alpha-v2"
+        versionCode 14
+        versionName "Alpha-v3"
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
                                 onesignal_app_id               : "c0fbadc6-4013-4613-b00b-566eab144d3c",
                                 onesignal_google_project_number: "4122760152"]
