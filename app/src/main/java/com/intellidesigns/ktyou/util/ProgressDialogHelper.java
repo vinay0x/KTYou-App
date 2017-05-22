@@ -25,5 +25,7 @@ public class ProgressDialogHelper {
         progress.setView(View.inflate(mContext, R.layout.progress_bar_layout, null));
         progress.setMessage(mContext.getResources().getString(R.string.loading));
         progress.show();
+        progress.setCanceledOnTouchOutside(false);
+
     }
 }
