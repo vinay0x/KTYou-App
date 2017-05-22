@@ -1,5 +1,6 @@
 package com.intellidesigns.ktyou;
 
+import android.graphics.Bitmap;
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.ActionBar;
@@ -575,8 +576,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             ProgressDialogHelper.dismissProgress();
         }
 
+        public void onPageStarted(WebView view, String url, Bitmap favicon) {
+            Log.d("HelloWebView", "onPageStarted : " + url);
+            ProgressDialogHelper.showProgress(MainActivity.this);
+        }
+
         @Override
         public void onPageFinished(WebView view, String url) {
+            Log.d("Finished:::::", "onPageFinished : " + url);
             super.onPageFinished(view, url);
             showContent();
             setToolbarButtonColor();
