@@ -612,7 +612,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mWebviewPop.setWebViewClient(new UriWebViewClient());
             mWebviewPop.getSettings().setJavaScriptEnabled(true);
             mWebviewPop.getSettings().setSavePassword(false);
-            mWebviewPop.getSettings().setAppCacheEnabled(true);
+            mWebviewPop.getSettings().setAppCacheEnabled(false);
+            mWebViewPop.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
             mWebviewPop.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
             mWebviewPop.getSettings().setSupportMultipleWindows(true);
             mWebviewPop.getSettings().setGeolocationEnabled(true);
