@@ -524,6 +524,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private class UriWebViewClient extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            if (url != null && url.startsWith("whatsapp://")) {
+                view.getContext().startActivity(
+                        new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                return true;
+            } else {
             String host = Uri.parse(url).getHost();
             urlData = url;
             if (target_url_prefix.equals(host)) {
@@ -545,7 +550,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }
             return result;
-        }
+        }}
 
         @Override
         public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
@@ -585,6 +590,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         public void onPageFinished(WebView view, String url) {
             Log.d("Finished:::::", "onPageFinished : " + url);
             super.onPageFinished(view, url);
+            view.clearCache(true);
             showContent();
             setToolbarButtonColor();
             hideStatusBar();
